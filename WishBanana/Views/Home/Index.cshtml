@@ -1,0 +1,73 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div class="ui-mobile-viewport ui-overlay-a">
+	<!-- Start of first page: #one -->
+	<div data-role="page" id="one" data-url="one" tabindex="0" class="ui-page ui-page-theme-a ui-page-active" >
+
+		<div data-role="header" role="banner" class="ui-header ui-bar-inherit">
+		</div><!-- /header -->
+
+		<div role="main" class="ui-content" style="width:60%; text-align:center; margin:auto;">
+			<h1 style="font-size:84px;">Wish</h1>
+			<img id="bananaImage"
+					src="http://files.enjin.com.s3.amazonaws.com/265719/modules/forum/attachments/bananaAnimated_1423001776.png"
+					onmousedown="bananaMouseDown()"
+					onmouseup="bananaMouseUp()"
+					height="253"
+					width="500"
+					style="margin-bottom:35px;" />
+			<p>
+				<a href="#joingame" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" id="joingame"
+					onclick="joingameClick()">Join Game</a>
+				<a href="#ourstory" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" data-rel="popup"
+					data-position-to="window" data-transition="turn">Our Story</a>
+				<a href="#credits" class="ui-btn ui-btn-inline ui-shadow ui-corner-all" data-rel="popup"
+					data-position-to="window" data-transition="turn">Credits</a>
+			</p>
+
+			<!-- Start of credit popup: #credits -->
+			<div data-role="popup" id="credits" data-overlay-theme="a">
+				<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+				<div role="main" class="ui-content">
+					<h2>Credits </h2>
+					<p>Give some credits to who did what. TADA!!</p>
+				</div><!-- /content -->
+			</div><!-- /page popup -->
+			<!-- Start of Our Story popup: #ourstory -->
+			<div data-role="popup" id="ourstory" data-overlay-theme="a">
+				<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+				<div role="main" class="ui-content">
+					<h2>Our Story </h2>
+					<p>
+						Lunch story time with Kevin, Joyce, Victor, Tim, and James. TADA!!<br />
+						Try not to use really long sentense or put them in separate 'p' tags or use the 'br' <br />
+						tag so the popup doesnt become really long.
+					</p>
+				</div><!-- /content -->
+			</div><!-- /page popup -->
+		</div><!-- /content -->
+
+		<div data-role="footer" data-theme="a" role="contentinfo" class="ui-footer ui-bar-a">
+		</div><!-- /footer -->
+	</div><!-- /page one -->
+</div>
+
+<script type="text/javascript">
+	function joingameClick()
+	{
+		alert("TODO call ajax to add user to queue.")
+	}
+
+	function bananaMouseDown() {
+		$("#bananaImage").attr("src", "http://i.imgur.com/fjbup.gif");
+	}
+
+	function bananaMouseUp() {
+		$("#bananaImage").attr("src", "http://files.enjin.com.s3.amazonaws.com/265719/modules/forum/attachments/bananaAnimated_1423001776.png");
+		$("#bananaImage").attr("height", "253");
+		$("#bananaImage").attr("width", "500");
+	}
+
+</script>
