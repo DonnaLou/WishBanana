@@ -21,5 +21,10 @@ namespace WishBanana.Controllers
             return View();
         }
 
+        public ActionResult WishBrowser()
+        {
+            return View();
+        }
+
     }
 }

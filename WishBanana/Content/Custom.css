@@ -8,6 +8,11 @@ div .ui-content {
     margin:auto;
 }
 
+h1{
+
+    font-family: Original Surfer;
+}
+
 textarea {
     height: auto !important;
     width: auto !important;
@@ -17,4 +22,8 @@ textarea {
 #iwish{
     border-style:dashed;
     border-width:thick;
+}
+
+.ui-btn{
+    font-family: Original Surfer !important;
 }
