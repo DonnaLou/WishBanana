@@ -30,3 +30,29 @@ c:\users\loudon\documents\visual studio 2013\Projects\WishBanana\WishBanana\bin\
 c:\users\loudon\documents\visual studio 2013\Projects\WishBanana\WishBanana\obj\Debug\WishBanana.dll
 c:\users\loudon\documents\visual studio 2013\Projects\WishBanana\WishBanana\obj\Debug\WishBanana.pdb
 c:\users\loudon\documents\visual studio 2013\Projects\WishBanana\WishBanana\obj\Debug\WishBanana.csprojResolveAssemblyReference.cache
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\WishBanana.dll.config
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\WishBanana.dll
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\WishBanana.pdb
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\Antlr3.Runtime.dll
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\EntityFramework.dll
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\Newtonsoft.Json.dll
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\System.Web.Mvc.dll
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\System.Web.Optimization.dll
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\System.Web.Providers.dll
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\System.Web.Razor.dll
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\System.Web.WebPages.dll
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\System.Web.WebPages.Razor.dll
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\WebGrease.dll
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\EntityFramework.xml
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\Newtonsoft.Json.xml
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\System.Web.Mvc.xml
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\System.Web.Razor.xml
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\System.Web.WebPages.xml
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\bin\System.Web.WebPages.Razor.xml
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\obj\Debug\WishBanana.csprojResolveAssemblyReference.cache
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\obj\Debug\WishBanana.dll
+C:\Users\Donna\Documents\GitHub\WishBanana\WishBanana\obj\Debug\WishBanana.pdb

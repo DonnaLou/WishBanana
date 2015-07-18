@@ -1,0 +1,15 @@
+﻿body {
+    height: auto !important;
+}
+
+div .ui-content {
+    width: 60%;
+    text-align:center; 
+    margin:auto;
+}
+
+textarea {
+    height: auto !important;
+    width: auto !important;
+    display: inline !important;
+}
