@@ -13,3 +13,8 @@ textarea {
     width: auto !important;
     display: inline !important;
 }
+
+#iwish{
+    border-style:dashed;
+    border-width:thick;
+}
