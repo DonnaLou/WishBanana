@@ -8,22 +8,18 @@ div .ui-content {
     margin:auto;
 }
 
-h1{
-
-    font-family: Original Surfer;
+h1, .ui-btn{
+    color: grey !important;
+    font-family: Original Surfer !important;
 }
 
-textarea {
-    height: auto !important;
-    width: auto !important;
-    display: inline !important;
-}
 
 #iwish{
     border-style:dashed;
     border-width:thick;
+    display: inline !important;
+    width:50%;
+    overflow-y:scroll;
+    border-radius:5px;
 }
 
-.ui-btn{
-    font-family: Original Surfer !important;
-}
