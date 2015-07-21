@@ -23,3 +23,35 @@ h1, .ui-btn{
     border-radius:5px;
 }
 
+.grid-item { 
+	padding:10px;
+	border-width: medium; 
+	border-style:dashed; 
+	width: 25%; 
+	margin-bottom:10px;
+}
+
+.grid-item--width2 { 
+	padding:10px;
+	border-width: medium; 
+	border-style:dotted; 
+	width: 50%; 
+	margin-bottom:10px;
+}
+
+.grid-item--width3 { 
+	padding:10px;
+	border-width: medium; 
+	border-style:groove; 
+	margin-bottom:10px;
+	width: 75%; 
+}
+
+.grid-item--width4 { 
+	padding:10px;
+	border-width: medium; 
+	border-style:double; 
+	margin-bottom:10px;
+	width: 99%; 
+}
+
