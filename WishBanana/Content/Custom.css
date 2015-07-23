@@ -3,9 +3,7 @@
 }
 
 div .ui-content {
-    width: 60%;
     text-align:center; 
-    margin:auto;
 }
 
 h1, .ui-btn{
@@ -13,45 +11,44 @@ h1, .ui-btn{
     font-family: Original Surfer !important;
 }
 
+h2{
+    color: grey !important;
+    font-family: Original Surfer !important;
+    padding-left: 3%;
+}
 
-#iwish{
+
+#iwishTextArea{
     border-style:dashed;
     border-width:thick;
     display: inline !important;
-    width:50%;
     overflow-y:scroll;
     border-radius:5px;
+    height: 100%;
+    width: 100%;
 }
 
 .grid-item { 
 	padding:10px;
 	border-width: medium; 
-	border-style:dashed; 
-	width: 25%; 
+    border-color:grey;
 	margin-bottom:10px;
+    border-style:dashed; 
+	width: 25%; 
 }
 
 .grid-item--width2 { 
-	padding:10px;
-	border-width: medium; 
 	border-style:dotted; 
 	width: 50%; 
-	margin-bottom:10px;
 }
 
 .grid-item--width3 { 
-	padding:10px;
-	border-width: medium; 
 	border-style:groove; 
-	margin-bottom:10px;
 	width: 75%; 
 }
 
 .grid-item--width4 { 
-	padding:10px;
-	border-width: medium; 
 	border-style:double; 
-	margin-bottom:10px;
 	width: 99%; 
 }
 
