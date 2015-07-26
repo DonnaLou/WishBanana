@@ -2,27 +2,30 @@
     ViewBag.Title = "Index";
 }
 
-<div>
-    <h1 class="ui center aligned header" style="font-size:72px; margin-bottom:0px;">Wish</h1>
-    <div class="ui two column stackable grid center aligned">
-        <img id="bananaImage"
-             src="http://files.enjin.com.s3.amazonaws.com/265719/modules/forum/attachments/bananaAnimated_1423001776.png"
-             height="253"
-             width="500"
-             style="margin-bottom:35px;" />
-        <div class="four column row">
-            <button class="ui red button" id="joingame" onclick="joingameClick()">Play</button>
-            <button class="ui orange button">Wish Browser</button>
-            <button class="ui yellow button">Our Story</button>
-            <button class="ui olive button">Credits</button>
+<div class="ui text container">
+    <h1 class="ui center aligned header" style="font-size:72px;">Wish</h1>
+    <div class="ui centered fluid large image">
+        <img id="bananaImage" src="http://files.enjin.com.s3.amazonaws.com/265719/modules/forum/attachments/bananaAnimated_1423001776.png" />
+    </div>
+    <div class="ui hidden section divider"></div>
+    <div class="ui four column stackable grid center aligned">
+        <div class="column">
+            <button class="fluid ui red button" id="playBtn" onclick="joingameClick()">Play</button>
+        </div>
+        <div class="column">
+            <a href="@Url.Action("wishbrowser")" class="fluid ui orange button">Wish Browser</a>
+        </div>
+        <div class="column">
+            <button class="fluid ui yellow button" id="ourStoryBtn">Our Story</button>
+        </div>
+        <div class="column">
+            <button class="fluid ui olive button" id="creditBtn">Credits</button>
         </div>
     </div>
 
     <div class="ui small modal" id="credits">
-        <i class="close icon">x</i>
-        <div class="header">
-            Credits
-        </div>
+        <i class="close icon"></i>
+        <h3 class="ui grey header">Credits</h3>
         <div class="content">
             <p>Kevin Duensing - Narrator for our story.</p>
             <p>Donna Lou - Client side application code.</p>
@@ -30,11 +33,9 @@
         </div>
     </div>
     <!-- Start of Our Story popup: #ourstory -->
-    <div class="ui small modal" id="ourstory">
-        <i class="close icon">x</i>
-        <div class="header">
-            Our Story
-        </div>
+    <div class="ui small modal " id="ourstory">
+        <i class="close icon"></i>
+        <h3 class="ui grey header">Our Story</h3>
         <div class="content">
             <p>
                 It was noon-thirty on a beautiful Tuesday. The banana-colored sunlight spilled across the peaceful cul-de-sac of Via Del Campo Ct. <br />
@@ -67,8 +68,10 @@
             <p>I wish I could tell you everyone survived. I wish I could tell you the peaceful cul-de-sac of Via del Campo Ct wasn't a vast crater. So I will.</p>
 
             <p>
-                After everyone nursed their banana-related injuries, Donna Lou and Jon Anderson decided to make a game based on their experience that day.  <br /> This is that game.
-                Please play with reckless abandon, in honor of those six brave souls who got super sticky on that fateful day. <br /> <br />
+                After everyone nursed their banana-related injuries, Donna Lou and Jon Anderson decided to make a game based on their experience that day. This is that game.
+                Please play with reckless abandon, in honor of those six brave souls who got super sticky on that fateful day.
+            </p>
+            <p class="floated right">
                 <b>Narrated by Kevin Duensing </b>
             </p>
         </div>
@@ -79,27 +82,27 @@
 
     $(document).ready(function () {
         $('#bananaImage').transition('tada');
-        ;
     });
 
     $('#bananaImage').click(function () {
         $(this).transition('tada');
-    })
+    });
+
+    $('#ourStoryBtn').click(function () {
+        $('#ourstory').modal('setting', 'transition', 'vertical flip').modal('show');
+    });
+
+    $('#creditBtn').click(function () {
+        $('#credits').modal('setting', 'transition', 'vertical flip').modal('show');
+    });
 
     function joingameClick() {
         alert("TODO call ajax to add user to queue.")
     }
 
 
-
     //function bananaMouseDown() {
     //	$("#bananaImage").attr("src", "http://i.imgur.com/fjbup.gif");
-    //}
-
-    //function bananaMouseUp() {
-    //	$("#bananaImage").attr("src", "http://files.enjin.com.s3.amazonaws.com/265719/modules/forum/attachments/bananaAnimated_1423001776.png");
-    //	$("#bananaImage").attr("height", "253");
-    //	$("#bananaImage").attr("width", "500");
     //}
 
 </script>

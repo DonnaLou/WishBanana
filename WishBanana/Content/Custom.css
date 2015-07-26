@@ -21,11 +21,7 @@ h2{
 #iwishTextArea{
     border-style:dashed;
     border-width:thick;
-    display: inline !important;
-    overflow-y:scroll;
     border-radius:5px;
-    height: 100%;
-    width: 100%;
 }
 
 .grid-item { 
