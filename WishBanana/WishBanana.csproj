@@ -134,6 +134,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Custom.css" />
+    <Content Include="Content\portraits\jonAnderson.jpg" />
+    <Content Include="Content\portraits\kevinDuensing.jpg" />
+    <Content Include="Content\portraits\pewpew.png" />
     <Content Include="Content\semantic\dist\components\accordion.css" />
     <Content Include="Content\semantic\dist\components\accordion.js" />
     <Content Include="Content\semantic\dist\components\accordion.min.css" />
