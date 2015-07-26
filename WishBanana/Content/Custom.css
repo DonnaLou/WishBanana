@@ -1,12 +1,6 @@
-﻿body {
-    height: auto !important;
-}
+﻿
 
-div .ui-content {
-    text-align:center; 
-}
-
-h1, .ui-btn{
+h1{
     color: grey !important;
     font-family: Original Surfer !important;
 }
@@ -14,9 +8,11 @@ h1, .ui-btn{
 h2{
     color: grey !important;
     font-family: Original Surfer !important;
-    padding-left: 3%;
 }
 
+.ui.container{
+    padding-top:50px;
+}
 
 #iwishTextArea{
     border-style:dashed;
