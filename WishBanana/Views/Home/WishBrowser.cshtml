@@ -7,7 +7,7 @@
         <div class="col-md-12">
             <h2 class="pageHeading pull-left">Wish Browser</h2>
         </div>
-		<a href="#" class="ui-btn" id="append-button" >Add</a>
+		<button class="ui-btn" id="append-button" >Add</button>
         <br />
 
 		<div class="grid">
@@ -22,28 +22,25 @@
 	//http://stackoverflow.com/questions/11162942/javascript-doesnt-execute-in-view-after-a-controller-redirect
 	//In jQuery Mobile, Ajax is used to load the contents of each page into the DOM as you navigate, and the DOM ready handler only executes for the first page. 
 	//To execute code whenever a new page is loaded and created, you can bind to the pageinit event. Except pageinit doesn't work for me, so bind to pagechange
-	$(document).bind("pagechange", function () {
-		DocumentReady();
-	});
 
-	function DocumentReady() {
-		var $grid = $('.grid').masonry({
-			// options
-			itemSelector: '.grid-item',
-			columnWidth: 160,
-			gutter:10
-		});
+    $(document).ready(function() {
+        var $grid = $('.grid').masonry({
+            // options
+            itemSelector: '.grid-item',
+            columnWidth: 160,
+            gutter:10
+        });
 
-		$('#append-button').on('click', function () {
-			// create new item elements
-			var $items = $(getItem());
+        $('#append-button').on('click', function () {
+            // create new item elements
+            var $items = $(getItem());
 
-			// append items to grid
-			$grid.append($items)
+            // append items to grid
+            $grid.append($items)
 				// add and lay out newly appended items
 				.masonry('appended', $items);
-		});
-	}
+        });
+    })
 
 	function getItem() {
 

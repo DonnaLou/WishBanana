@@ -4,15 +4,20 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+		@*<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script src="~/Content/Bootstrap 3.3.5/js/bootstrap.min.js"></script>*@
+
 	    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.js"></script>
-        <script src="~/Content/Bootstrap 3.3.5/js/bootstrap.min.js"></script>
 
 		<link rel="stylesheet" href="~/Content/Custom.css" />
-		<link rel="stylesheet" href="~/Content/JqueryMobile/jquery.mobile-1.4.5.min.css" />
 		<link href='http://fonts.googleapis.com/css?family=Original+Surfer' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="~/Content/Bootstrap 3.3.5/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="~/Content/Bootstrap 3.3.5/css/bootstrap-theme.min.css" />
+		@*<link rel="stylesheet" href="~/Content/Bootstrap 3.3.5/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="~/Content/Bootstrap 3.3.5/css/bootstrap-theme.min.css" />*@
+
+        <link rel="stylesheet" type="text/css" href="~/Content/semantic/dist/semantic.min.css">
+        <script src="~/Content/semantic/dist/semantic.min.js"></script>
+
 
 	    <link rel="shortcut icon" href="../favicon.ico">
 	    <meta charset="utf-8" />
@@ -20,7 +25,7 @@
 	    <title>@ViewBag.Title</title>
     </head>
     <body>
-        <div class="container">
+        <div class="ui container ">
             @RenderBody()
 
         </div>
